@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Helvetica;
+    src: url('https://bestfonts.pro/fonts_files/5c168bb7b2143e318c4cdb0f/files/HelveticaNeueCyr-Medium.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: #0b4720; 
+    color: #ffffff; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.vitamins-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vitamin-column {
+    width: calc(100% / 6 - 16px);
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #184e2e;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 28px;
+    text-align: right;
+    font-family: 'Helvetica Neue Thin', sans-serif;
+}
+
+footer {
+    background: linear-gradient(to bottom, #0b4720, #5aae7c);
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
